@@ -1,5 +1,7 @@
 package demo.project.rest;
 
+
+
 public class Sample {
 
 	public static void main(String[] args) {
@@ -7,6 +9,7 @@ public class Sample {
 
 		
 	RestAssured.URI = "https://reqres.in/api/users";
+	given()
 	}
 
 }
